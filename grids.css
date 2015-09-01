@@ -1,0 +1,45 @@
+.column, .grids, .tiles{
+  background: #ddd;
+  border: 1px solid #d0d0d0;
+  -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    transition-duration: .3s;
+}
+.column:hover, .grids:hover{
+  background: #efefef;
+  cursor: pointer;
+  -webkit-transition-duration: .3s;
+  -moz-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  -ms-transition-duration: .3s;
+  transition-duration: .3s;
+}
+.row{
+  margin-bottom: 25px;
+  text-align: center;
+}
+.about{
+  font-size: 16px;
+  line-height: 60px;
+  margin-bottom: 0;
+  color: #555;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  -ms-transition-duration: .2s;
+  transition-duration: .2s;
+}
+.column:hover .about, .grids:hover .about{
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  -o-transition-duration: .2s;
+  -ms-transition-duration: .2s;
+  transition-duration: .2s;
+}
+.300{
+  width: 300px !important;
+}

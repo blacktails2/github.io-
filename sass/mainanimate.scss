@@ -1,0 +1,16 @@
+@import "source/animate";
+h1{@include tada($duration, $delay, $function, $fill, $visibility);
+  &:hover{
+    @include shake($duration, $delay, $function, $fill, $visibility);
+  }
+}
+img{@include bounce($duration, $delay, $function, $fill, $visibility);
+  &:hover{
+    @include swing($duration, $delay, $function, $fill, $visibility);
+  }
+}
+li{
+	&:hover{
+		@include fadeIn($duration, $delay, $function, $fill, $visibility);
+	}
+}

@@ -1,0 +1,6 @@
+@import "source/animate";
+h1{
+  &:hover{
+    @include shake($duration, $delay, $function, $fill, $visibility);
+  }
+}

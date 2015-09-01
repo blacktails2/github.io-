@@ -1,0 +1,117 @@
+body{
+	font-family: "小塚ゴシックL"
+}
+div #navi{
+	z-index: 100;
+}
+.btns{
+	margin-bottom: 20px;
+}
+.project{
+	margin: 5px !important;
+}
+.btn.medium a{
+	width:210px !important;
+}
+.season{
+	border-bottom: 1px dotted #ccc;
+	margin-bottom: 15px;
+}
+.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+@font-face{
+    font-family: "小塚ゴシックEL";
+    src: url(KozGoPr6N-ExtraLight.otf);
+}
+@font-face{
+    font-family: "小塚ゴシックL";
+    src: url(KozGoPr6N-Light.otf);
+}
+@font-face{
+    font-family: "social";
+    src: url(WebIconFonts.otf);
+}
+@font-face{
+    font-family: "entypo";
+    src: url(entypo.ttf);
+}
+h1{
+	font-family: "小塚ゴシックEL";
+	color: black;
+	text-align: center;
+	margin: 20px;
+}
+.kodukal{
+	font-family: "小塚ゴシックL";
+}
+p{
+	font-family: "小塚ゴシックL" !important;
+}
+body{
+	width: 100%;
+}
+.contents{
+     padding-bottom:140px; /*フッターの高さと同じ*/
+}
+.wait{
+	font-family: "小塚ゴシックEL" !important;
+	color: black;
+	width: 100%;
+	height :600px;
+	text-align: center;
+}
+.footter{
+	text-align: center;
+	color: black;
+}
+.footter #copywrite{
+	font-family: "小塚ゴシックL"
+}
+.footter #links{
+	font-family: "social";
+	font-size: 22px;
+}
+.footter #links #et{
+	margin-top: 1px !important;
+	font-family: "entypo";
+	font-size: 22px;
+}
+.tab-content{
+	text-align: left !important;
+	font-family: "小塚ゴシックL" !important;
+}
+#modals{
+	text-align: center;
+}
+h2{
+	font-family: "小塚ゴシックL" !important;
+}
+html,body{
+     height:100%;
+}
+#wrap{
+     width: 100%;
+     position: relative;
+     height:auto !important; /*IE6対策*/
+     height: 100%; /*IE6対策*/
+     min-height: 100%;
+}
+#footer{
+    height:140px;
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+.share{margin-left: 3% !important;}
+.btn,.drawer { margin-bottom:10px; }
+.drawer { text-align: center; }
+h1.lead { border-bottom: 1px dotted #ccc; margin-bottom: 30px; }
+h4.lead { margin-bottom:10px; }
+#icon_map ul li { font-size: 16px; }
+.smallify { font-size: 13px; }
+.modal h2, .modal .btn { margin: 5% 0 20px; }
+.ttip.example { float: left; background: #eee; border: 1px dotted #ccc; padding: 20px; }

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    	<link rel="shortcut icon" href="favicon.png" type="image/vnd.microsoft.icon" />
+    	<link rel="stylesheet" type="text/css" href="mainstyle.css">
+    	<link rel="stylesheet" type="text/css" href="gumby.css">
+    	<link rel="stylesheet" type="text/css" href="animate.css">
+    	<link rel="stylesheet" type="text/css" href="hover-min.css">
+        <meta charset="utf-8">
+        <title>kotake gun PvPチュートリアルページ</title>
+        <script src="js/libs/modernizr-2.6.2.min.js"></script>
+    </head>
+    <style>
+    h1{font-family: "小塚ゴシックEL";}
+    h5{font-family: "小塚ゴシックL";}
+    h2{font-family: "小塚ゴシックEL";}
+    h4{font-family: "小塚ゴシックEL";}
+    .alert{font-family: "小塚ゴシックL" !important;}
+    .center{text-align: center;}
+    .skiplink{margin-top: 30px;margin-bottom: 100px;}
+    .wrp{margin-top: 30px;margin-bottom: 30%;}
+    #fly{margin-top: 50px;}
+    .cen{text-align: center;}
+    span{font-family: "小塚ゴシックL" !important;}
+    .two_up{padding-top: 50px;}
+    </style>
+    <script src="js/wow.js"></script>
+   	<script>
+   		new WOW().init();
+   	</script>
+    
+    <body>
+    <div id="wrap">
+		<div class="contents">
+			<h1 class="animated fadeInDownBig">kotake gun PvPサーバー<br>初心者用チュートリアルページ</h1>
+			<div class="row">
+				<div class="fifteen columns centerd animated fadeInLeftBig">
+					<h4>このページは、<span class="danger label">kotake gun PvP</span>の初心者用チュートリアルページです。<br>このサーバーでの施設、道具、そしてPvPの流れについて説明していきます。</h4>	
+				</div>
+			</div>
+			<div class="row cen">
+				<ul class="animated fadeInRightBig"><span id="skiplink_1"><li class="skiplink medium wrp secondary">
+					<a href="#" gumby-goto="#num1" gumby-offset="-60">画面の見方へ</a>
+				</li></span>
+				<span id="skiplink_2"><li class="skiplink medium wrp default">
+					<a href="#" gumby-goto="#num2" gumby-offset="-60">施設紹介へ</a>
+				</li></span>
+				<span id="skiplink_3"><li class="skiplink medium wrp danger">
+					<a href="#" gumby-goto="#num3" gumby-offset="-60">PvPの流れへ</a>
+				</li></span>
+				<span id="skiplink_4"><li class="skiplink medium wrp primary">
+					<a href="#" gumby-goto="#num4" gumby-offset="-60">道具の使い方へ</a>
+				</li></span>
+				<span id="skiplink_5"><li class="skiplink medium wrp info">
+					<a href="#" gumby-goto="#num5" gumby-offset="-60">その他へ</a>
+				</li></span></ul>
+			</div>
+			<div class="row" id="num1">
+				<div class="fourteen columns centerd">
+					<h2 class="animated fadeInLeftBig">①画面の見方</h2>
+					<div class="main">
+						<section class="sixteen colgrid animated fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="ログイン後">
+									<img src="kotake/sq8.png">
+								</div>
+								<div class="seven columns">
+									<h4>-サーバーに入った直後</h4>
+									<p>
+									サーバーに入った時の初期スポーン地点はエントリー場です。ここでエントリーなどをします。
+										<li class="alert success">①お知らせ:お知らせです。時間経過で消えます。</li>
+										<li class="alert success">②入室ログ:入室した際に出るログです。リソースパックもここからリンクを踏んでダウンロードできます。</li>
+										<li class="alert success">③joinログ:サーバーに入った時に出るログです。他の人が入ったときも出ます。退室時には、leftログが出ます。</li>
+										<li class="alert success">④レッドストーンブロック:ここを叩くと(右クリックでも左クリックでもかまいません)PvPにエントリーできます。</li>
+								</p>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="エントリー時">
+									<img src="kotake/sq3.png">
+								</div>
+								<div class="seven columns">
+									<h4>-PvPエントリー時-tab</h4>
+									<p>
+										PvPにエントリーしているときのtabを押したときにでるウィンドウです。
+										<li class="alert success">①ノーエントリー:エントリーしていない人は白文字で表されます。PvPが始まってもワープしません。</li>
+										<li class="alert success">②エントリー:PvPにエントリーしている人は黄緑で表されます。PvPが始まると装備を付けてPvPに参加します。</li>
+										<li class="alert success">③クランタグ:クラン(後述)に属している人は、入った直後のみ(入ってからエントリーするか一回PvPが終わるまで)クランタグが表示されます。</li>
+								</p>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="ステージ選択">
+									<img src="kotake/sq9.png">
+								</div>
+								<div class="seven columns">
+									<h4>-ステージ選択時</h4>
+									<p>
+									ステージを選択したときにでるログです。
+										<li class="alert success">①ゲージ:選択されたステージ名とPvPが始まるまでの時間です。ゲージが0になったらPvPが始まります。</li>
+										<li class="alert success">②ステージ選択者:ステージを選択した人の名前が出ます。※連続してステージを選ばないようにしましょう。皆が平等にステージを選べるのが理想です。</li>
+										<li class="alert success">③ステージ名等:選択されたステージ名と必要人数が表示されます。</li>
+										<li class="alert success">④カウントダウン:PvPが始まるまでの時間のログです。残り30秒･20秒･10秒〜PvP開始まででログが出ます。</li>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="PvP中">
+									<img src="kotake/sq15.png">
+								</div>
+								<div class="seven columns">
+									<h4>-PvP中-tab</h4>
+									<p>PvP中にtabキーを押したときに出るウィンドウです。
+										<li class="alert success">①ノーエントリー:PvPに参加していない人達は白で表されます。</li>
+										<li class="alert success">②レッドチーム:赤チームの人達です。感染ゲーム(後述)だとゾンビ側は暗い緑で表されます。</li>
+										<li class="alert success">③ブルーチーム:青チームの人達です。感染ゲームだと人間側は灰色で表されます。</li>
+										<li class="alert success">④キル(以下<span class="label danger">kill</span>)ポイント:その人が<span class="label danger">kill</span>した数が出ます。</li>
+									</p>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="PvP終了後">
+									<img src="kotake/sq12.png">
+								</div>
+								<div class="seven columns">
+									<h4>-PvP終了時</h4>
+									<p>PvPが終了したときに出るログです。
+										<li class="alert success">①試合結果:PvPで勝ったチームが表示されます。</li>
+										<li class="alert success">②チーム<span class="label danger">kill</span>:各チームの総<span class="label danger">kill</span>数が表示されます。</li>
+										<li class="alert success">③MVP:その試合で一番<span class="label danger">kill</span>と<span class="label dark">death</span>の差が多かった人が表示されます。</li>
+										<li class="alert success">④個人成績:自分の<span class="label danger">kill</span>と<span class="label dark">death</span>が表示されます。</li>
+									</p>
+								</div>
+							</div>
+						</section>
+						<div class="alert warning wow fadeInRightBig">
+							<h5><span class="label danger">Tips!</span> ショートカットメニューについて</h5>
+							<div class="image photo ttip" data-tooltip="ショートカットメニュー右クリック時"><img src="kotake/sq2.png"></div>
+							<p>
+							ショートカットメニューでは、様々な便利なことをこれ一つでできます。
+								<li class="alert success">①エントリー:PvPにエントリーできます。試合中は行えません。</li>
+								<li class="alert success">②エントリー解除:エントリーを解除します。ステージ選択後は行えません。</li>
+								<li class="alert success">③PvEロビー:PvEのロビーに行きます。(詳しくは後述)</li>
+								<li class="alert success">④アスレチック:アスレチック場へ飛びます。</li>
+								<li class="alert success">⑤FFA:FFAのどこかにワープします。(現在調整中です。)</li>
+								<li class="alert success">⑥射撃場:射撃場へワープします。</li>
+								<li class="alert success">⑦初期スポーン:エントリー場へワープします。</li>
+							</p>
+						</div>
+						<p class="skiplink medium info"><a href="#" gumby-goto="top"><i class="icon-up-open-big"></i>トップへ</a></p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row" id="num2">
+				<h2 class="wow fadeInLeftBig">②施設紹介</h2>
+				<div class="wow main fadeInRightBig">
+					<section class="sixteen colgrid">
+						<div class="row">
+							<div class="image photo ttip six columns" id="fly" data-tooltip="上空から見た図">
+								<img src="kotake/sq1.png">
+							</div>
+							<div class="ten columns">
+								<ul class="two_up tiles">
+									<li class="image photo ttip" data-tooltip="OPの間"><img src="kotake/sq4.png"></li>
+									<li class="image photo ttip" data-tooltip="ステージ選択場"><img src="kotake/sq5.png"></li>
+									<li class="image photo ttip" data-tooltip="武器屋"><img src="kotake/sq6.png"></li>
+									<li class="image photo ttip" data-tooltip="アミューズメント小屋"><img src="kotake/sq7.png"></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<h4>①エントリー場</h4>
+					<p>サーバーにログインする際にリスポーン場所となる中央の建物がエントリー場です。<br>エントリー場では、赤石ブロックを叩くことによってPvPにエントリーできます。<br>積極的に、エントリーして試合に参加しましょう！</p>
+					<h4>②ステージ選択場</h4>
+					<p>エントリー場の右側にある建物が、ステージ選択場です。<br>試合選択会場では、様々なステージや感染モード等のゲームを選ぶことができます。<br>使用する際には、エントリーしてる人数がステージの看板に書かれている人数より多い場合その看板をクリックすることによって選択できます。<br>※何度も同じステージを選択したりすると運営から注意があります。参加者同士譲り合って選びましょう！</p>
+					<h4>③OPの間</h4>
+					<p>エントリー場から上にある建物が、OPの間です。<br>ここでは、運営の頭やVipper・動画製作者達が飾られています。<br>※運営・Vipper・動画製作者になりたい場合は、管理者SkypeID:kotake545まで！(あまりしつこいと嫌われます)</p>
+					<h4>④武器屋</h4>
+					<p>エントリー場左側にある建物が、武器屋です。<br>ここでは、銃を村人から購入することができます。<br>装備を買う際には、本で確認して階級を満たしているか、所持金は足りるか確認しましょう。<br>武器屋には初級・中級・上級とランクが分かれています。<br>初級武器屋:准尉未満の階級で買うことができる装備が揃っている(例　AK47 M16 等)<br>中級武器屋:准尉以上の階級で買うことができる装備が揃えており非常に強力なものが多いです。(例　DSR　P90　等)<br>上級武器屋:大佐以上で買うことができるPATRIOTを販売しています。</p>
+					<div class="alert primary">
+						<span class="label primary">購入の手続き</span>
+						<p class="center">武器屋まで行き村人を右クリック<br>↓<br>すると武器の一覧が出てくるので買いたい武器を選んでクリック！<br>↓<br>「購入しました」のログが出たら手続きは終了です。</p>
+						<p>※間違えて別の装備を買ってしまった、この装備を売りたい等の質問に関しては自己責任なので払い戻しなどは致しません。</p>
+					</div>
+					<h4>⑤クラン掲示板</h4>
+					<p>武器屋の手前に、設置されているのがクラン掲示板です。<br>クラン掲示板では、クランメンバーの募集やクランの作り方等記載されております。<br>自分にあったクランを見つけて仲間と共に戦場を戦いましょう。<br>※掲示板に広告を出す際にはOPがいるときにご連絡ください。</p>
+					<h4>⑥アミューズメント小屋</h4>
+					<p>エントリー場下側にある建物は、アミューズメント小屋です。<br>ここでは、アスレチックワールドに行ったりなどPvP以外の娯楽を提供しています。</p>
+					<div class="alert primary">
+						<h5>現在あるアミューズメント施設</h5>
+						<p>アスレチック:簡単なアスレチックをご用意しております。(まだ完成しておりませんが、途中まで遊べます。)<br>射撃場:銃の試射を行うことができます。腕に自信がない方はこちらで練習してから参加しましょう！！(現在機能しておりません)<br>※戻る際には、ショートカットの時計から初期TPを選んでください。</p>
+					</div>
+					<p class="skiplink medium info"><a href="#" gumby-goto="top"><i class="icon-up-open-big"></i>トップへ</a></p>
+				</div>
+			</div>
+			<div class="row" id="num3">
+				<div class="fourteen columns centerd">
+					<h2 class="wow fadeInLeftBig">③ゲームモード解説</h2>
+					<div class="wow main fadeInRightBig">
+						<h4>-PvPについて</h4>
+						<p>
+							エントリー場もしくはショートカットでエントリーした後、試合選択場でステージ選択がされるとカウントダウンが始まります。カウントダウン終了と同時にステージに飛ばされ試合開始です。試合形式は、チームデスマッチで青と赤に別れ相手より先に多く倒した方が勝つか、もしくは制限時間300秒以内に終わらなかった際killが多いチームが勝ちになります。<br>※リスキル等はできる限りお控えください。あまりにもひどい場合運営から警告があります。
+						</p>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="PvP参加時">
+									<img src="kotake/sq14.png">
+								</div>
+								<div class="seven columns">
+									<li class="alert success">①チーム<span class="label danger">kill</span>スコア:PvPの残り時間、各チームの<span class="label danger">kill</span>数が表示されます。</li>
+									<li class="alert success">②味方:自チームと同じ色の装備を付けて居るのが味方です。</li>
+									<li class="alert success">③勝利条件:勝利までの<span class="label danger">kill</span>数です。試合参加人数によって上下します。</li>
+									<li class="alert success">④武器:メイン、サブ、特殊武器、アビリティがあります。(後述)また、weapon selecterにて装備を変えることができます。(一回<span class="label dark">death</span>した後に反映されます)</li>
+									<li class="alert success">⑤自チームログ:自分のチームカラーが表されます。</li>
+								</div>
+							</div>
+						</section>
+						<h4>-感染ゲームについて</h4>
+						<p>
+							試合形式の一つに、感染モードがあります。感染モードでは、プレイヤーとゾンビとで別れて戦い、制限時間終了までプレイヤーが生き残るかゾンビがプレイヤーを全滅させれば終了になります。
+						</p>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="人間のとき">
+									<img src="kotake/sq19.png">
+								</div>
+								<div class="seven columns">
+									<li class="alert success">①敵ゾンビ:敵です。ゾンビは近接攻撃しかできないため、できるだけ近づけないようにしましょう。</li>
+									<li class="alert success">②感染ログ:ゾンビに感染した人が表示されます。ゾンビに殴られると体力に関わらず一発で感染します。(=体力関係なく早く動けるアビリティが有利です)</li>
+									<li class="alert success">③チーム人数:人間と敵の数を表しています。dark_greenはゾンビで、grayは人間です。</li>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="ゾンビのとき">
+									<img src="kotake/sq20.png">
+								</div>
+								<div class="seven columns">
+									<li class="alert success">①アイテムボックス:ゾンビ側は武器はなく、素手ですが、殴れば一回で感染させられます。</li>
+									<li class="alert success">②味方ゾンビ:味方です。</li>
+									<li class="alert success">③リスポーンポイント:死ぬと金ブロックのどこかにワープします。</li>
+								</div>
+							</div>
+						</section>
+						<h4>-PvEについて</h4>
+						<p>
+							PvEとは、ゾンビと戦いながらゴールを目指すゲームモードです。最大６人まで参加でき、途中にはボスなどがいます。参加するには、ショートカットから金剣を選びPvEロビーからエメラルドの枠に飛び込めば参加できます。
+						</p>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="PvEロビー">
+									<img src="kotake/sq18.png">
+								</div>
+								<div class="seven columns">
+									<li class="alert success">奥に見えるエメラルドで囲まれた枠に入るとPvEにエントリーできます。(PvPエントリー中、PvEゲーム中には入れません。)</li>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="PvE待機場">
+									<img src="kotake/sq17.png">
+								</div>
+								<div class="seven columns">
+									<li class="alert success">①スタートボタン:ここを押すことで募集を締め切り、PvEを始めることができます。</li>
+									<li class="alert success">②募集ログ:PvE待機場に入った時に出るログです。PvEに入っていない人には「PvEメンバー募集」のログが表示されます。</li>
+								</div>
+							</div>
+						</section>
+						<section class="sixteen colgrid wow fadeInRightBig">
+							<div class="row">
+								<div class="nine columns image photo ttip" data-tooltip="PvE戦闘中">
+									<img src="kotake/sq16.png">
+								</div>
+								<div class="seven columns">
+									<li class="alert success">①武器:PvEも、PvPと同じように武器を使えますが、武器の組み合わせを考える必要があります。ゾンビは絶え間なく来るので、常に打ち続けられる(=リロードが早い)武器が必要となります。また、アビリティはhealthboostⅠがおすすめです。</li>
+									<li class="alert success">②無限弾薬:PvEは非常に敵が多いため、通常の銃だとすぐ弾切れになってしまいますが、サブマシンガンとハンドガン(拳銃)のみ弾が無限になります。</li>
+									<li class="alert success">③空腹ゲージ:PvEでは空腹ゲージが1で固定なので、回復もしませんし、走ることもで来ません。</li>
+									<li class="alert success">④エネミー:エネミーには様々な種類がいます。それぞれの特性に合った戦いをしましょう。</li>
+								</div>
+							</div>
+						</section>
+						<h4>-FFAについて</h4>
+						<p>
+							FFAでは、広い一つの街をステージとして仲間無し･敵のみの戦闘をします。ステージには各地にビーコンがあり、60秒に1つ叩いた人がダイヤを受け取ります。他人のダイヤは<span class="label danger">kill</span>することで奪い取ることがで来ます。集めたダイヤは換金場にて換金できるので、非常にお金が貯めやすいモードです。
+						</p>
+						<h4>-アスレチックについて</h4>
+						<p>
+							ショートカットメニュー、もしくはアミューズメント小屋から行く事ができます。アスレチックではそれぞれにポイントがあり、それぞれにちょっとしたお楽しみポイントがあります。しかし、どこまで進んでも落ちれば最初からです。まだ最後まで完成していませんが、完成したときには暁には･･･？
+						</p>
+						<h4>-射撃場について</h4>
+						<p>
+							射撃場では、様々な銃を試射したり、スナイプの練習をすることができます。まだ完成していませんが、完成したときにはスキルの向上に役立つでしょう。
+						</p>
+						<p class="skiplink medium info"><a href="#" rel="bubble-float-top" class=" button bubble-float-top" gumby-goto="top"><i class="icon-up-open-big"></i>トップへ</a></p>
+					</div>
+					<div class="alert warning wow fadeInRightBig">
+						<h5><span class="label danger">Tips!</span> 武器の種類について</h5>
+						<p>
+						武器には、メイン･サブ･特殊武器･アビリティがあり、それぞれを使い分けることで戦闘を有利に進めることができます。
+							<li class="alert success">メイン:色々な種類がありますが、ダメージ効率が良く、弾切れが早いです。一回撃ちきるまでに必ず<span class="danger label">kill</span>できます。</li>
+							<li class="alert success">サブ:攻撃力はあまり高く無く、連射速度は低いですが、あまり弾切れをせずリロードが早いため、メインの牽制に使うことができます。</li>
+							<li class="alert success">特殊武器:グレネードや火炎瓶、回復など、いろいろな物があります。自分のプレイスタイルに合わせて使いましょう。</li>
+							<li class="alert success">アビリティ:装備しておくと様々な効果を得ることができます。耐えに特化したアビリティや、スピードに特化した物など自分に合わせて使えると良いでしょう。</li>
+						</p>
+					</div>
+				</div>
+				<div class="wow fadeInRightBig">
+					<h5><span class="label danger">Tips!</span> メイン武器の種類</h5>
+					<p>
+					メイン武器は細分化されており、それぞれのプレイスタイルに合わせた武器が用意されています。何が自分に合うかよく吟味した上で使うと良いでしょう。
+					</p>
+					<p class="btn medium primary">
+						<a href="#" class="switch active" gumby-trigger="#drawer1">メイン武器表を見る(デカいです)</a>
+					</p>
+					<p class="btn medium info">
+						<a href="#" class="switch active" gumby-trigger="|.drawer">表を閉じる</a>
+					</p>
+				</div>
+			</div>
+			<div class="drawer" id="drawer1">
+				<table class="rounded striped">
+					<thead>
+						<tr>
+							<th>種類</th>
+							<th>例</th>
+							<th>攻撃力</th>
+							<th>リロード</th>
+							<th>精度</th>
+							<th>連射力</th>
+							<th>装填数</th>
+							<th>概要</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>サブマシンガン･アサルトライフル</td>
+							<td>AK-47,Vz-83,MP5等</td>
+							<td>低~中</td>
+							<td>早い</td>
+							<td>中~高</td>
+							<td>高い</td>
+							<td>30~50(一部例外アリ)</td>
+							<td>最も多くの人が使っている武器。装填数が多く、連射力が高いため敵に連続して弾を命中させやすく、オールラウンドに対応できる。</td>
+						</tr>
+						<tr>
+							<td>ショットガン</td>
+							<td>AA-12,spas-12等</td>
+							<td>近接:高 遠距離:極低(当たらない)</td>
+							<td>普通</td>
+							<td>撃った直後から放射状に大量の弾丸が放たれる(中･遠距離だとほぼ当たらない)</td>
+							<td>低〜中</td>
+							<td>10前後</td>
+							<td>癖の強い武器。近距離では最強だが中距離以降ではタダの鉄くず。一気に詰め寄って撃ったり、背後から攻めたり、角で待ち伏せることで1発･2発程度でkillできる。</td>
+						</tr>
+						<tr>
+							<td>スナイパーライフル</td>
+							<td>MSR,DSR-1,M82等</td>
+							<td>中~極高</td>
+							<td>遅い</td>
+							<td>非常に高い</td>
+							<td>低い</td>
+							<td>7~10前後</td>
+							<td>狙撃。左クリックにてスナイプモードに移行した後狙い撃つことで高いダメージを与えることが出来る。さらに、ヘッドショットをするとさらにダメージを効率的に与えられる。武器に寄るがワンショットキルも可能。プレイヤーのスキルが求められる。"突砂"も有効。</td>
+						</tr>
+						<tr>
+							<td>ソード</td>
+							<td>光剣</td>
+							<td>中~高</td>
+							<td>無</td>
+							<td>近距離攻撃のみ</td>
+							<td>高</td>
+							<td>制限なし</td>
+							<td>極稀に見る近接戦闘スタイル。階級と金が必要な割には扱いが難しく、たいていの人はアビリティのspeedⅡと合わせてネタで使っている。しかし、落下中の攻撃などを上手く使えば一回もしくは二回の振りで敵を斬り殺せる。サブ武器のFive Sevenと組み合わせると某ラノベの主人公スタイルに･･･？</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="row" id="num4">
+				<div class="fourteen columns centerd">
+					<h2 class="wow fadeInLeftBig">④道具の使い方</h2>
+					<div class="wow main fadeInRightBig">
+						<h4>-weapon selecterについて</h4>
+						<div class="image photo ttip" data-tooltip="weapon selecter右クリック時">
+							<img src="kotake/sq21.png">
+						</div>
+						<li class="alert success">
+							①メイン武器:メイン武器を変更します。左クリックで変更できます。初期はVz-83です。
+						</li>
+						<li class="alert success">
+							②サブ武器:サブ武器を変更します。初期はGlock18です。
+						</li>
+						<li class="alert success">
+							③特殊武器:特殊武器を変更します。初期はグレネード(緑)です。
+						</li>
+						<li class="alert success">
+							④アビリティ:アビリティを変更します。初期はなしです。
+						</li>
+						<li class="alert success">
+							⑤PvE装備:PvEのみ反映される装備です。
+						</li>
+						<div class="image photo ttip" data-tooltip="武器選択時">
+							<img src="kotake/sq23.png">
+						</div>
+						<p>
+							上記の武器を左クリックすると、それぞれの種類の銃を選択できます。新しい銃を使うには武器屋で買う必要があります。銃にカーソルを重ねると名前と説明が出ます。銃を左クリックすることで選択できます。
+						</p>
+						<h4>-player info bookについて</h4>
+						<div class="image photo ttip" data-tooltip="info book使用時">
+							<img src="kotake/sq22.png">
+						</div>
+						<p>
+							player info bookは、自分や他人の階級や実力を確認することができます。左クリックで自分の情報、他プレイヤーを右クリックすることでそのプレイヤーの情報を確認できます。	
+						</p>
+						<li class="alert success">
+							名前:そのプレイヤーの名前です。
+						</li>
+						<li class="alert success">
+							階級:そのプレイヤーの階級(後述)です。階級が高いほど長くやっていると言えるでしょう。
+						</li>
+						<li class="alert success">
+							K/D:<span class="label danger">kill</span>÷(<span class="label danger">kill</span>+<span class="label dark">death</span>)で求めることができます。%が高ければ高いほど一回<span class="label dark">death</span>するまでの<span class="label danger">kill</span>が多いと言えるでしょう。その人の強さが一番表れると行っても過言ではありません。
+						</li>
+						<li class="alert success">
+							所持金:所持金です。1<span class="label danger">kill</span>するごとに3円、連続で<span class="label danger">kill</span>することでさらに倍率が高くなっていきます。
+						</li>
+						<li class="alert success">
+							所属:クランに入っている人のみ表示されます。クランの所属です。
+						</li>
+						<li class="alert success">
+							地位:クランの地位を表します。<br>master:クランマスターです。クランに勧誘したり、消したり、追放したりすべての権限を持っています。<br>manager:クランマネージャーです。勧誘の権限を持っています。<br>member:クランメンバーです。平クラン員です。権限はありません。
+						</li>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="num5">
+				<div class="fourteen columns centerd">
+					<h2 class="wow fadeInLeftBig">⑤その他</h2>
+					<div class="wow main fadeInRightBig">
+						<h4>-OP達について</h4>
+						<h4>-階級について</h4>
+						<h4>-リソースパックについて</h4>
+						<h4>-ｵﾇﾇﾒ戦闘スタイル</h4>
+						<h4></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="footter wow rollIn" id="footer">
+			<li id="copywrite">©2014 blacktails2<br>written by isikawa_01</li>
+			<li id="links">
+				<a href="http://www.amazon.co.jp/registry/wishlist/S1MU9DOUWTWF">a</a>
+				<a href="">f</a>
+				<a href="https://twitter.com/blacktails2">t</a>
+				<a href="https://github.com/blacktails2">n</a>
+			</li>
+			<a href="https://twitter.com/share" class="twitter-share-button share" data-url="http://blacktails2.github.io" data-via="blacktails2">Tweet</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		</ul>
+	</div>
+
+
+
+	<!-- js -->
+	<script src="js/libs/jquery-2.0.2.min.js">	</script>
+	<script gumby-touch="js/libs" src="js/libs/gumby.js"></script>
+	<script src="js/libs/ui/gumby.fixed.js"></script>
+	<script src="js/libs/ui/gumby.navbar.js"></script>
+	<script src="js/libs/gumby.init.js"></script>
+	<script src="js/libs/gumby.min.js"></script>
+	<script src="js/libs/jquery-1.10.1.min.js"></script>
+	<script src="js/libs/jquery.mobile.custom.min.js"></script>
+	<script src="js/libs/modernizr-2.6.2.min.js"></script>
+	<script src="js/libs/ui/gumby.toggleswitch.js"></script>
+	<script src="js/libs/ui/jquery.validation.js"></script>
+
+
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+    </body>
+</html>
